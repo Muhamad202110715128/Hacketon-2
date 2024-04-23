@@ -211,6 +211,18 @@ header {
     font-size: 18px;
 }
 
+.homepage .hd-card4 .set-card .title{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 3rem;
+}
+
+.homepage .hd-card4 .set-card .isi{
+    font-size: 12px;
+    padding-left: 3rem;
+
+}
+
 
 .homepage .header-box p{
     line-height: 2;

@@ -84,7 +84,7 @@ const HomePage = () => {
                   <img className="wwa" src={WhoWeAre} alt="" />
                 </div>
               </Col>
-              <Col>
+              <Col >
               <Card className="card4 border border-white ">
                 <Card.Body className="mb-0 ">
                   <Card.Title className="title ">Who <span>We Are</span></Card.Title>
@@ -171,30 +171,30 @@ const HomePage = () => {
                   </Row>
 
                   <Row className="set-card mt-5 text-white">
-                    <Col className=" flex text-center">  
-                      <img src={Action} alt="" />
+                    <Col lg="3 " className=" flex text-center">  
+                      <img className="simbol" src={Action} alt="" />
                       <Card.Title className="title">Action-oriented curriculum </Card.Title>
                       <Card.Text className="isi">
                       The programme structure is 25% theory and 75%  <br />application. Every cohort is curated according to the industry interest of participating investors. 
                       </Card.Text>
                     </Col>
-                    <Col className="flex text-center">
-                      <img src={Koneksi} alt="" />
+                    <Col lg="3" className="flex text-center">
+                      <img className="simbol" src={Koneksi} alt="" />
                       <Card.Title className="title">Empowerment </Card.Title>
                       <Card.Text className="isi">
                       Business mentors, specialist advisors, and coaches  <br /> support on business model, strategy, operations and 
                       personal development.
                       </Card.Text>
                     </Col>
-                    <Col className="flex text-center">
-                      <img src={Peduli} alt="" />
+                    <Col lg="3" className="flex text-center">
+                      <img className="simbol" src={Peduli} alt="" />
                       <Card.Title className="title ">High touch peer support and evaluation </Card.Title>
                       <Card.Text className="isi mt-2">
                       Peers comment on each other’s business model, as well as evaluate and score each other’s performance.
                       </Card.Text>
                     </Col>
-                    <Col className="flex text-center">
-                      <img src={Uang} alt="" />
+                    <Col lg="3" className="flex text-center">
+                      <img className="simbol" src={Uang} alt="" />
                       <Card.Title className="title">Early involvement of prospective investors </Card.Title>
                       <Card.Text className="isi ">
                       Investor network members are aware of the pool of <br />

@@ -1,6 +1,5 @@
-import { Container, Row, Col, Card, } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import LogoImage from '../assets/img/logo-tbnindonesia.png'
-import WhoWeAre from '../assets/img/ww.png'
 import PBD from '../assets/img/pbd.png'
 import Frame from '../assets/img/Frame.png'
 import Restoration from '../assets/img/Restoration.png'
@@ -80,9 +79,14 @@ const HomePage = () => {
         <Container className="d-flex align-items-center">
         <Row>
               <Col>
-                <div>
-                  <img className="wwa" src={WhoWeAre} alt="" />
-                </div>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="800" height="465" 
+                  src="https://www.youtube.com/embed/Kgrumz_76RI?si=S4tF0Txw9jWJaSol" title="YouTube video player" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" 
+                allowFullcreen>                  
+                </iframe>
+              </div>
               </Col>
               <Col >
               <Card className="card4 border border-white ">
